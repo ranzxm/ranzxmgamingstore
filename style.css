@@ -85,6 +85,7 @@ img {
   height: 100%;
   background-color: rgb(151, 151, 151);
   color: black;
+  cursor: pointer;
 }
 
 .search-form .search-input {
@@ -104,6 +105,7 @@ img {
   justify-content: center;
   border-start-end-radius: 5px;
   border-end-end-radius: 5px;
+  cursor: pointer;
 }
 
 .user-info {
