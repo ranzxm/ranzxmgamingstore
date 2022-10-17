@@ -152,3 +152,16 @@ img {
   background-color: #333;
   color: white;
 }
+
+/* banner start */
+
+.banner .banner-link {
+  display: inline-block;
+  background-image: url(img/banner-hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 423px;
+  width: 100%;
+}
+
+/* banner end */
