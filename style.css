@@ -109,6 +109,10 @@ img {
   cursor: pointer;
 }
 
+.search-btn {
+  color: rgb(0, 0, 0);
+}
+
 .user-info {
   grid-area: user-info;
   display: flex;
