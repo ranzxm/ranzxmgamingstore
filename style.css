@@ -6,6 +6,7 @@
 body {
   font-size: 18px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 img {
@@ -155,13 +156,73 @@ img {
 
 /* banner start */
 
-.banner .banner-link {
-  display: inline-block;
-  background-image: url(img/banner-hero.jpeg);
-  background-size: cover;
-  background-position: center;
+.banner {
   height: 423px;
   width: 100%;
 }
 
+.banner .banner-link {
+  display: inline-block;
+  background-image: url(img/banner-hero.jpeg);
+  background-size: cover;
+  min-height: 423px;
+  width: 100%;
+}
+
 /* banner end */
+
+/* product start */
+
+.products {
+  background-color: black;
+  height: 100vh;
+}
+
+.popular-products {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  background-color: #333;
+}
+
+/* product end */
+
+/* responsive mobile */
+
+@media screen and (max-width: 679px) {
+  .login-bar {
+    display: none;
+  }
+
+  .help-bar {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar-mobile {
+    height: 80px;
+    color: rgb(0, 197, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .nav-bar-mobile .brand-logo img {
+    width: 150px;
+  }
+
+  .banner {
+  }
+  .banner .banner-link {
+    background-image: url(img/banner-hero-mobile.jpeg);
+    min-height: 470px;
+    background-position: center;
+  }
+}
