@@ -180,13 +180,47 @@ img {
 .products {
   background-color: black;
   height: 100vh;
+  color: white;
 }
 
-.popular-products {
+.gaming-laptop {
   width: 90%;
-  margin: auto;
+  margin: 10px auto;
   height: 200px;
+  border-top: 2px solid rgb(0, 197, 0);
+}
+
+.gaming-laptop h3 {
+}
+
+.products-container {
+  margin: 10px 0px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(0, 197, 0);
+  gap: 10px;
+}
+
+.card-product {
   background-color: #333;
+}
+
+.img-product a img {
+  /* width: 200px; */
+}
+
+.sub-product a {
+  text-decoration: none;
+  color: #eaeaea;
+  display: inline-block;
+  margin: 10px;
+}
+
+.price-product h4 {
+  margin: 10px;
 }
 
 /* product end */
@@ -223,10 +257,15 @@ img {
   }
 
   .banner {
+    margin-bottom: 60px;
   }
   .banner .banner-link {
     background-image: url(img/banner-hero-mobile.jpeg);
     min-height: 470px;
     background-position: center;
+  }
+
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
