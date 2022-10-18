@@ -44,7 +44,7 @@ img {
 
 .help-bar {
   background-color: black;
-  color: white;
+  color: rgb(0, 197, 0);
 }
 
 .container-help-bar {
@@ -118,6 +118,10 @@ img {
 /* HELP BAR END */
 
 /* nav bar start */
+
+.nav-bar-mobile {
+  display: none;
+}
 
 .nav-bar {
   background-color: rgb(0, 197, 0);
@@ -214,7 +218,7 @@ img {
     box-sizing: border-box;
   }
 
-  .nav-bar-mobile .brand-logo img {
+  .nav-bar-mobile .brand-logo a img {
     width: 150px;
   }
 
